@@ -12,7 +12,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         
-        {/* own props in mapStateToProps */}
+        {/* own props in mapStateToProps and mapDispatchToProps */}
         <ItemContainer cake />
         <ItemContainer />
 
